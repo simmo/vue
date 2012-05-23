@@ -1,0 +1,28 @@
+body {
+  background: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 320px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media (min-width: 767px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: purple;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: red;
+  }
+}
