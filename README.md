@@ -1,5 +1,9 @@
 # Vue
 
+## Demo
+
+Heres the (very basic) demo: [http://simmo.github.com/vue](http://simmo.github.com/vue "View demo")
+
 ## Usage
 
 Download vue.js and include before the closing body tag in your HTML.
