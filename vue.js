@@ -1,6 +1,7 @@
 // vue.js - Mike Simmonds - https://github.com/simmo/vue
 
 Object.prototype.each = function(callback) {
+  if (this == null) return;
   for (var i=0;i<this.length;i++) callback.apply(this[i], [i, this[i]]);
   return this;
 };
