@@ -52,15 +52,19 @@ var vue = {
   init: function() {
     var self = this;
     
-    document.styleSheets.each(function(i, sheet) {
-      self._sheets++;
-      sheet.cssRules.each(function(i, rule) {
-        if (rule.type === 4) {
-          self._rules++;
-          rule.media.each(function(i, media) { self._addQuery(media); });
+    if (document.styleSheets) {
+      document.styleSheets.each(function(i, sheet) {
+        self._sheets++;
+        if (sheet.cssRules) {
+          sheet.cssRules.each(function(i, rule) {
+            if (rule.type === 4) {
+              self._rules++;
+              rule.media.each(function(i, media) { self._addQuery(media); });
+            }
+          });
         }
       });
-    });
+    }
     
     this._initalized = true;
     
