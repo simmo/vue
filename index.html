@@ -2,14 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Vue.js - CSS Media Query Monitor</title>
+    <meta name="viewport" content="width=device-width,maximum-scale=1,initial-scale=1">
+    <title>Vue by Mike Simmonds @ GitHub</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600">
     <link rel="stylesheet" href="demo.css">
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-9639535-3']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </head>
   <body>
-    
-    <h1>Vue</h1>
-    <p>The background-color will change with different media queries. When the background-color changes you should see the browser's console log the change.</p>
-    
-    <script src="vue.min.js"></script>
+    <section class="container">
+      <header>
+        <hgroup class="heading">
+          <h1 class="repo-name"><a href="https://github.com/simmo/vue">Vue</a></h1>
+          <h2 class="by"> by Mike Simmonds</h2>
+        </hgroup>
+        <p>Vue is a monitor for media queries. It requires no installation, setup or configuration. Follow the steps below to get going:</p>
+        <p class="note"><strong>Note:</strong> Can only identifiy CSS loaded on the same domain.</p>
+      </header>
+      <article>
+        <ol class="steps cf">
+          <li>Add link to bookmarks: <a href="javascript:(function(){var a=document.createElement('script'),b=document.getElementsByTagName('body')[0];a.src='https://raw.github.com/simmo/vue/master/vue.min.js';b.appendChild(a);})();">Vue</a></li>
+          <li>Go to the site you wish to test, open the JS console.</li>
+          <li>Click the bookmark!</li>
+        </ol>
+      </article>
+      <article>
+        <h1>Contribute</h1>
+        <p><a href="https://github.com/simmo/vue" data-ga_event="Repo">View on GitHub</a> or <a href="https://github.com/simmo/vue/zipball/master" data-ga_event="Download">download</a>.</p>
+        <p>You can clone the project with <a href="http://git-scm.com" data-ga_event="Git">Git</a> by running:</p>
+        <p><code>$ git clone git://github.com/simmo/vue</code></p>
+        <p>For more information, take a look at the <a href="https://github.com/simmo/vue/blob/master/README.md" data-ga_event="Readme">README file</a>.</p>
+      </article>
+    </section>
   </body>
 </html>
