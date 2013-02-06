@@ -1,14 +1,8 @@
 # Vue
 
-## Bookmarklet
-
-1. Add this link to your bookmarks: [Vue][vue]
-2. Go to the site you wish to test & open the JS console
-3. Click the bookmark!
-
-  [vue]: javascript:(function(){var%20a=document.createElement('script'),b=document.getElementsByTagName('body')[0];a.src='https://raw.github.com/simmo/vue/master/vue.min.js';b.appendChild(a);})();
-
 ## Demo
+
+Also includes details on how to add as a bookmarklet.
 
 [http://simmo.github.com/vue](http://simmo.github.com/vue "View demo")
 
